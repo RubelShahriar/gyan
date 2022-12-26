@@ -1,0 +1,1014 @@
+@media (min-width:320px) and (max-width: 575px){
+    /* common property */
+    .title p{
+        width: auto;
+        margin: 0 10px;
+        margin-bottom: -50px;
+    }
+    /* header part */
+    header .row{
+        text-align: center;
+    }
+    header span{
+        display: block;
+    }
+    header i{
+        margin: 0;
+        margin-right: 5px;
+    }
+    header .anchor{
+        display: block;
+    }
+    header p{
+        display: inline-block;
+    }
+    /* nav part */
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0 0;
+    }
+    nav ul{
+        background: #2d3e50;
+        text-align: center;
+    }
+    nav ul li{
+        margin-left: 0;
+    }
+    .nav-link{
+        margin-top: 0;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    nav .button1{
+        background: #2d3e50;
+        text-align: center;
+        padding: 20px 20px 25px 20px;
+    }
+    
+    nav .button1 a:hover{
+        background: #fff;
+        color: #2d3e50;
+    }
+    /* nav #navbarSupportedContent{
+        position: absolute;
+        top: 85px;
+        left: 0;
+        z-index: 9999;
+        width: 100%;
+    }  */
+
+    /* banner part */
+    #banner-part .banner .overlay{
+        padding: 60px 0;
+    }
+    #banner-part .banner .overlay h3{
+        font-size: 25px;
+    }
+    #banner-part .banner .overlay h1{
+        font-size: 30px;
+    }
+    #banner-part .banner .overlay p{
+        width: auto;
+        margin-bottom: 34px;
+    }
+    #banner-part .banner .overlay a{
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #banner-part ul{
+        padding-left: 0px;
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #fbaa33;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    /* banner-bottom */
+    #banner-bottom{
+        transform: translateY(0);
+    }
+    /* about part */
+    #about-part{
+        margin-bottom: 40px;
+    }
+    #about-part .text p{
+        margin: 35px 0;
+    }
+    #about-part .about-slider::after{
+        width: 0;
+    }
+    #about-part .about-slider::before{
+        width: 0;
+    }
+    #about-part .rev_slider::after{
+        width: 0;
+    }
+    #about-part .rev_slider::before{
+        width: 0;
+    }
+    /* counter up part */
+    #counterup-part{
+        padding: 30px 0;
+        margin-bottom: 20px;
+    }
+    #counterup-part .counterup{
+        margin-bottom: 10px;
+    }
+    #counterup-part .counterup h4::before{
+        width: 0px;
+    }
+    #counterup-part .counterup h4::after{
+        width: 0px;
+    }
+    /* course part */
+    #course-part{
+        margin-bottom: 40px;
+    }
+    #course-part .course .image .overlay{
+        padding: 90px 110px;
+    }
+    #course-part .course .lorem{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    #course-part .course .lorem::after {
+        width: 0;
+    }
+    #course-part .bottom .duration h5{
+        margin-top: 10px;
+    }
+    #course-part .slick-dots{
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #course-part ul{
+        padding-left: 0px;
+    }
+    #course-part .slick-dots li{
+        display: inline-block;
+        margin: 0 6px;
+    }
+    #course-part .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #fbaa33;
+    }
+    #course-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    /* event part */
+    #event-part{
+        margin-bottom: 10px;
+    }
+    #event-part .calender img{
+        height: 50%;
+    }
+    #event-part .bootcamp{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -230px;
+    }
+    #event-part .bootcamp1{
+        margin-top: 30px;
+    }
+    #event-part .bootcamp .text{
+        margin-left: 0;
+    }
+    /* testimonial part */
+    #testimonial-part{
+        padding: 10px 0;
+    }
+    #testimonial-part .testimonial{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #testimonial-part .testimonial .image img{
+        width: 100%;
+        height: 100%;
+    }
+    #testimonial-part .testimonial .text{
+        margin-left: 0;
+    }
+    #testimonial-part .testimonial .text p{
+        width: auto;
+    }
+    #testimonial-part .testi-slider::after{
+        width: 0;
+    }
+    #testimonial-part .testi-slider::before{
+        width: 0;
+    }
+    #testimonial-part .testi-bottom::after{
+        width: 0;
+    }
+    #testimonial-part .testi-bottom::before{
+        width: 0;
+    }
+    #testimonial-part .accordian{
+        margin-top: 20px;
+    }
+    #testimonial-part .slick-dots{
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 23px;
+    }
+    #testimonial-part ul{
+        padding-left: 0px;
+    }
+    #testimonial-part .slick-dots li{
+        display: inline-block;
+        margin: 0 6px;
+    }
+    #testimonial-part .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #fbaa33;
+    }
+    #testimonial-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    /* teacher part */
+    #teacher-part{
+        margin-top: -100px;
+    }
+    #teacher-part .teacher:hover .text h2{
+        padding-top: 0;
+        /* transition: .4s; */
+    }
+    #teacher-part .slick-dots{
+        position: absolute;
+        bottom: 96px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #teacher-part ul{
+        padding-left: 0px;
+    }
+    #teacher-part .slick-dots li{
+        display: inline-block;
+        margin: 0 6px;
+    }
+    #teacher-part .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #fbaa33;
+    }
+    #teacher-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    #teacher-part .teacher .text p::after{
+        width: 0;
+    }
+    #teacher-part .teacher .text p::before{
+        width: 0;
+    }
+    /* blog part */
+    #blog-part .title{
+        margin-top: -80px;
+        padding-bottom: 80px;
+    }
+    #blog-part .blog {
+        transform: translateY(0%);
+    }
+    #blog-part .blog .image{
+        margin-top: 20px;
+    }
+    #blog-part .blog .image .overlay{
+        padding-top: 130px;
+    }
+    #blog-part .blog3 .image .overlay{
+        margin-top: 90px;
+    }
+    #blog-part .blog .image .overlay .icon i{
+        display: none;
+    }
+    /* footer part */
+    #footer-part{
+        margin-top: -30px;
+    }
+    #footer-part .gyan p{
+        width: auto;
+    }
+    #footer-part .links ul li{
+        margin-bottom: 0;
+    }
+    #footer-part h2{
+        margin-bottom: 0;
+        padding-top: 20px;
+    }
+}
+@media (min-width:576px) and (max-width: 767px){
+    /* common property */
+    .title p{
+        margin-bottom: -50px;
+    }
+    /* header part */
+    header .row{
+        text-align: center;
+    }
+    header span{
+        display: block;
+    }
+    header i{
+        margin: 0;
+        margin-right: 5px;
+    }
+    header .anchor{
+        display: block;
+    }
+    header p{
+        display: inline-block;
+    }
+    /* nav part */
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0 0;
+    }
+    nav ul{
+        background: #2d3e50;
+        text-align: center;
+    }
+    nav ul li{
+        margin-left: 0;
+    }
+    .nav-link{
+        margin-top: 0;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    nav .button1{
+        background: #2d3e50;
+        text-align: center;
+        padding: 20px 20px 25px 20px;
+    }
+    
+    nav .button1 a:hover{
+        background: #fff;
+        color: #2d3e50;
+    }
+    /* nav #navbarSupportedContent{
+        position: absolute;
+        top: 85px;
+        left: 0;
+        z-index: 9999;
+        width: 100%;
+    }  */
+
+    /* banner part */
+    #banner-part .banner .overlay{
+        padding: 60px 0;
+    }
+    #banner-part .banner .overlay h3{
+        font-size: 25px;
+    }
+    #banner-part .banner .overlay h1{
+        font-size: 30px;
+    }
+    #banner-part .banner .overlay p{
+        width: auto;
+        margin-bottom: 34px;
+    }
+    #banner-part .banner .overlay a{
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #banner-part ul{
+        padding-left: 0px;
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #fbaa33;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    /* banner-bottom */
+    #banner-bottom{
+        transform: translateY(0);
+    }
+    #banner-bottom h2{
+        font-size: 18px;
+    }
+    /* about part */
+    #about-part{
+        margin-bottom: 40px;
+    }
+    #about-part .text p{
+        margin: 35px 0;
+    }
+    #about-part .about-slider::after{
+        width: 0;
+    }
+    #about-part .about-slider::before{
+        width: 0;
+    }
+    #about-part .rev_slider::after{
+        width: 0;
+    }
+    #about-part .rev_slider::before{
+        width: 0;
+    }
+    /* counter up part */
+    #counterup-part{
+        padding: 30px 0;
+        margin-bottom: 20px;
+    }
+    #counterup-part .counterup{
+        margin-bottom: 10px;
+    }
+    #counterup-part .counterup .counter{
+        font-size: 30px;
+    }
+    #counterup-part .counterup h4{
+        font-size: 20px;
+    }
+    #counterup-part .counterup h4::before{
+        width: 0px;
+    }
+    #counterup-part .counterup h4::after{
+        width: 0px;
+    }
+    /* course part */
+    #course-part{
+        margin-bottom: 40px;
+    }
+    #course-part .course .image .overlay{
+        padding: 90px 110px;
+    }
+    #course-part .course .lorem{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    #course-part .course .lorem::after {
+        width: 0;
+    }
+    #course-part .bottom .duration h5{
+        margin-top: 10px;
+    }
+    #course-part .slick-dots{
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #course-part ul{
+        padding-left: 0px;
+    }
+    #course-part .slick-dots li{
+        display: inline-block;
+        margin: 0 6px;
+    }
+    #course-part .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #fbaa33;
+    }
+    #course-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    /* event part */
+    #event-part{
+        margin-bottom: 10px;
+    }
+    #event-part .calender img{
+        height: 70%;
+    }
+    #event-part .bootcamp{
+        display: flex;
+        margin-top: -124px;
+    }
+    #event-part .bootcamp1{
+        margin-top: 30px;
+    }
+    #event-part .bootcamp .text h2{
+        font-size: 16px;
+    }
+    #event-part .bootcamp .text p{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    #event-part .bootcamp .text .room{
+        margin-right: 10px;
+    }
+    /* testimonial part */
+    #testimonial-part{
+        padding: 10px 0;
+    }
+    #testimonial-part .testimonial{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 40px;
+    }
+    #testimonial-part .testimonial .image img{
+        width: 100%;
+        height: 100%;
+    }
+    #testimonial-part .testimonial .text{
+        margin-left: 0;
+    }
+    #testimonial-part .testimonial .text p{
+        width: auto;
+        margin-top: 16px;
+    }
+    #testimonial-part .testi-slider::after{
+        width: 0;
+    }
+    #testimonial-part .testi-slider::before{
+        width: 0;
+    }
+    #testimonial-part .testi-bottom::after{
+        width: 0;
+    }
+    #testimonial-part .testi-bottom::before{
+        width: 0;
+    }
+    #testimonial-part .accordian{
+        margin-top: 20px;
+    }
+    #testimonial-part .slick-dots{
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 23px;
+    }
+    #testimonial-part ul{
+        padding-left: 0px;
+    }
+    #testimonial-part .slick-dots li{
+        display: inline-block;
+        margin: 0 6px;
+    }
+    #testimonial-part .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #fbaa33;
+    }
+    #testimonial-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    /* teacher part */
+    #teacher-part{
+        margin-top: -100px;
+    }
+    #teacher-part .teacher:hover .text h2{
+        padding-top: 0;
+        /* transition: .4s; */
+    }
+    #teacher-part .slick-dots{
+        position: absolute;
+        bottom: 96px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #teacher-part ul{
+        padding-left: 0px;
+    }
+    #teacher-part .slick-dots li{
+        display: inline-block;
+        margin: 0 6px;
+    }
+    #teacher-part .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #fbaa33;
+    }
+    #teacher-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    #teacher-part .teacher .text p::after{
+        width: 0;
+    }
+    #teacher-part .teacher .text p::before{
+        width: 0;
+    }
+    /* blog part */
+    #blog-part .title{
+        margin-top: -80px;
+    }
+    #blog-part .title{
+        padding-bottom: 126px;
+    }
+    #blog-part .blog {
+        transform: translateY(0%);
+    }
+    #blog-part .blog .image{
+        margin-top: 20px;
+    }
+    #blog-part .blog .image .overlay{
+        padding-top: 200px;
+    }
+    #blog-part .blog3 .image .overlay{
+        margin-top: 90px;
+    }
+    #blog-part .blog4 .image .overlay{
+        padding-bottom: 20px;
+    }
+    #blog-part .blog .overlay .icon{
+        top: 10px;
+    }
+    /* footer part */
+    #footer-part{
+        margin-top: -30px;
+    }
+    #footer-part .gyan p{
+        width: 200px;
+    }
+    #footer-part .links ul li{
+        margin-bottom: 0;
+    }
+    #footer-part h2{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    footer .image .overlay{
+        padding: 70px 10px;
+    }
+    footer .image .overlay p{
+        font-size: 13px;
+    }
+}
+@media (min-width:768px) and (max-width: 991px){
+    /* nav part */
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0 0;
+    }
+    nav ul{
+        background: #2d3e50;
+        text-align: center;
+    }
+    nav ul li{
+        margin-left: 0;
+    }
+    .nav-link{
+        margin-top: 0;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    nav .button1{
+        background: #2d3e50;
+        text-align: center;
+        padding: 20px 20px 25px 20px;
+    }
+    nav .button1 a:hover{
+        background: #fff;
+        color: #2d3e50;
+    }
+    /* nav #navbarSupportedContent{
+        position: absolute;
+        top: 85px;
+        left: 0;
+        z-index: 9999;
+        width: 100%;
+    }  */
+
+    /* banner part */
+    #banner-part .banner .overlay{
+        padding: 100px 0;
+    }
+    #banner-part .banner .overlay h3{
+        font-size: 25px;
+    }
+    #banner-part .banner .overlay h1{
+        font-size: 30px;
+    }
+    #banner-part .banner .overlay p{
+        width: auto;
+        margin-bottom: 34px;
+    }
+    #banner-part .banner .overlay a{
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #banner-part ul{
+        padding-left: 0px;
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #fbaa33;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    /* banner-bottom */
+    #banner-bottom{
+        transform: translateY(0);
+    }
+    #banner-bottom h2{
+        font-size: 18px;
+    }
+    /* about part */
+    #about-part{
+        margin-bottom: 40px;
+    }
+    #about-part .about-slider .rev_slide img{
+        width: 90%;
+        height: 280px;
+    }
+    #about-part .text p{
+        margin: 35px 0;
+    }
+    #about-part .text .anchor{
+        text-align: center;
+    }
+    #about-part .text .anchor a{
+        margin: 0 5px;
+    }
+    /* counter up part */
+    #counterup-part{
+        padding: 30px 0;
+        margin-bottom: 20px;
+    }
+    #counterup-part .counterup{
+        margin-bottom: 10px;
+    }
+    #counterup-part .counterup h4::before{
+        width: 0px;
+    }
+    #counterup-part .counterup h4::after{
+        width: 0px;
+    }
+    #counterup-part .counterup .counter{
+        font-size: 30px;
+    }
+    #counterup-part .counterup h4{
+        font-size: 20px;
+    }
+    /* course part */
+    #course-part{
+        margin-bottom: 40px;
+    }
+    #course-part .course .image .overlay{
+        padding: 90px 110px;
+    }
+    #course-part .course .lorem{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    #course-part .course .lorem::after {
+        width: 0;
+    }
+    #course-part .bottom .duration h5{
+        margin-top: 10px;
+    }
+    #course-part .slick-dots{
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #course-part ul{
+        padding-left: 0px;
+    }
+    #course-part .slick-dots li{
+        display: inline-block;
+        margin: 0 6px;
+    }
+    #course-part .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #fbaa33;
+    }
+    #course-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    /* event part */
+    #event-part{
+        margin-bottom: 10px;
+    }
+    #event-part .calender img{
+        height: 70%;
+    }
+    #event-part .bootcamp{
+        display: flex;
+        margin-top: -124px;
+    }
+    #event-part .bootcamp1{
+        margin-top: 30px;
+    }
+    #event-part .bootcamp .text h2{
+        font-size: 16px;
+    }
+    #event-part .bootcamp .text p{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    #event-part .bootcamp .text .room{
+        margin-right: 10px;
+    }
+    /* testimonial part */
+    #testimonial-part{
+        padding: 10px 0;
+    }
+    #testimonial-part .testimonial{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 40px;
+    }
+    #testimonial-part .testimonial .image img{
+        width: 100%;
+        height: 100%;
+    }
+    #testimonial-part .testimonial .text{
+        margin-left: 0;
+    }
+    #testimonial-part .testimonial .text p{
+        width: auto;
+        margin-top: 16px;
+    }
+    #testimonial-part .testi-slider::after{
+        width: 0;
+    }
+    #testimonial-part .testi-slider::before{
+        width: 0;
+    }
+    #testimonial-part .testi-bottom::after{
+        width: 0;
+    }
+    #testimonial-part .testi-bottom::before{
+        width: 0;
+    }
+    #testimonial-part .accordian{
+        margin-top: 20px;
+    }
+    #testimonial-part .slick-dots{
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 23px;
+    }
+    #testimonial-part ul{
+        padding-left: 0px;
+    }
+    #testimonial-part .slick-dots li{
+        display: inline-block;
+        margin: 0 6px;
+    }
+    #testimonial-part .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #fbaa33;
+    }
+    #testimonial-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    /* teacher part */
+    #teacher-part{
+        margin-top: -100px;
+    }
+    #teacher-part .teacher:hover .text h2{
+        padding-top: 0;
+        /* transition: .4s; */
+    }
+    #teacher-part .slick-dots{
+        position: absolute;
+        bottom: 96px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #teacher-part ul{
+        padding-left: 0px;
+    }
+    #teacher-part .slick-dots li{
+        display: inline-block;
+        margin: 0 6px;
+    }
+    #teacher-part .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #fbaa33;
+    }
+    #teacher-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    #teacher-part .teacher .text p::after{
+        width: 0;
+    }
+    #teacher-part .teacher .text p::before{
+        width: 0;
+    }
+    /* blog part */
+    #blog-part .title{
+        margin-top: -80px;
+    }
+    #blog-part .title{
+        padding-bottom: 30px;
+    }
+    #blog-part .blog {
+        transform: translateY(0%);
+    }
+    #blog-part .blog .image{
+        margin-top: 20px;
+    }
+    #blog-part .blog .image .overlay{
+        padding-top: 240px;
+    }
+    #blog-part .blog2 .image .overlay{
+        padding-top: 215px;
+    }
+    #blog-part .blog3 .image .overlay{
+        margin-top: 90px;
+    }
+    #blog-part .blog .overlay .icon{
+        top: 10px;
+    }
+    /* footer part */
+    #footer-part{
+        margin-top: -30px;
+    }
+    #footer-part .gyan p{
+        width: 200px;
+    }
+    #footer-part .links ul li{
+        margin-bottom: 6px;
+    }
+    #footer-part h2{
+        margin-top: 30px;
+    }
+    footer .image .overlay{
+        padding: 70px 10px;
+    }
+    footer .image .overlay p{
+        font-size: 13px;
+    }
+    #footer-part .gyan i{
+        margin-right: 10px;
+    }
+}
